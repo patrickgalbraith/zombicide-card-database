@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Zombicide Card Database</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <form class="controls" id="filters">
+            <fieldset class="section-filter">
+                <select>
+                    <option value=".equipment">Equipment</option>
+                    <option value=".spawn">Spawn</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="equipment-filter">
+                <select>
+                    <option value="">All Sets</option>
+                    <option value=".set-1">Season 1</option>
+                    <option value=".set-3">Toxic City Mall</option>
+                    <option value=".set-2">Prison Outbreak</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="equipment-filter">
+                <select>
+                    <option value="">All Types</option>
+                    <option value=".type-weapon">Weapons</option>
+                    <option value=".type-ultrared">Ultrared weapons</option>
+                    <option value=".type-pimp">Pimpmobile</option>
+                    <option value=".type-dual-wield">Dual wieldable</option>
+                    <option value=".type-item">Items</option>
+                </select>
+            </fieldset>
+
+            <fieldset class="spawn-filter">
+                <select>
+                    <option value="">All Sets</option>
+                    <option value=".set-1">Season 1</option>
+                    <option value=".set-2">Walk Of The Dead</option>
+                    <option value=".set-3">Zombie Dogs</option>
+                    <option value=".set-4">Toxic City Mall</option>
+                    <option value=".set-5">Prison Outbreak</option>
+                    <option value=".set-6">Walk Of The Dead #2</option>
+                    <option value=".set-7">Toxic Crowd</option>
+                    <option value=".set-8">Angry Zombies</option>
+                </select>
+            </fieldset>
+
+            <button id="Reset">Reset</button>
+        </form>
+
+        <div id="card-container">
+            <!-- EQUIPMENT - SEASON 1 -->
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/bag-of-rice.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/baseball-bat.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/canned-food.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/chainsaw.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/crowbar.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon type-pimp">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/evil-twins.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/fire-axe.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/flash-light.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/gasoline.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/glass-bottle.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/goalie-mask.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/katana.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/machete.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon type-pimp">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/ma's-shotgun.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/molotov.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/pan.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/pistol.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/plenty-of-ammo.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/plenty-of-ammo-shotgun.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/sawed-off.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/scope.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/shotgun.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-weapon type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/sub-mg.jpg" alt="">
+            </div>
+            <div class="card equipment set-1 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/1/water.jpg" alt="">
+            </div>
+
+            <!-- EQUIPMENT - TOXIC CITY MALL -->
+            <div class="card equipment set-3 type-weapon type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/44-magnum.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-weapon type-ultrared">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/911-special.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/assault-rifle.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-weapon type-ultrared">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/betty.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/cookies.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-weapon type-ultrared">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/dougs-dream.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/flamethrower.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/gas-mask.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/hollow-point-rounds.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-weapon type-ultrared">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/jack-and-jill.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/laser-pointer.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-weapon type-ultrared">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/neds-atomic-flashlight.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/pa's-gun.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/spare-change.jpg" alt="">
+            </div>
+            <div class="card equipment set-3 type-weapon type-ultrared">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/3/sweet-sisters.jpg" alt="">
+            </div>
+
+            <!-- EQUIPMENT - SEASON 2 -->
+            <div class="card equipment set-2 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/automatic-shotgun.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-weapon type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/claw-hammer.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/concrete-saw.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-weapon type-pimp type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/gunblade.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-weapon type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/hatchet.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-weapon type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/kukri.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/meat-cleaver.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/nailbat.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/nails.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-weapon">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/night-stick.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-item">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/riot-shield.jpg" alt="">
+            </div>
+            <div class="card equipment set-2 type-weapon type-dual-wield">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/equipment/2/wakizachi.jpg" alt="">
+            </div>
+
+            <!-- SPAWN CARDS -->
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/1.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/2.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/3.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/4.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/5.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/6.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/7.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/8.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/9.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/10.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/11.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/12.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/13.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/14.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/15.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/16.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/17.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/18.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/19.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/20.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/21.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/22.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/23.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/24.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/25.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/26.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/27.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/28.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/29.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/30.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/31.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/32.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/33.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/34.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/35.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/36.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/37.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/38.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/39.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/40.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/41.jpg" alt="">
+            </div>
+            <div class="card spawn set-1">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/42.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/43.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/44.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/45.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/46.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/47.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/48.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/49.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/50.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/51.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/52.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/53.jpg" alt="">
+            </div>
+            <div class="card spawn set-2">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/54.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/55.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/56.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/57.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/58.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/59.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/60.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/61.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/62.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/63.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/64.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/65.jpg" alt="">
+            </div>
+            <div class="card spawn set-3">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/66.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/67.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/68.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/69.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/70.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/71.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/72.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/73.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/74.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/75.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/76.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/77.jpg" alt="">
+            </div>
+            <div class="card spawn set-4">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/78.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/79.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/80.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/81.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/82.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/83.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/84.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/85.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/86.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/87.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/88.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/89.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/90.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/91.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/92.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/93.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/94.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/95.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/96.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/97.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/98.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/99.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/100.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/101.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/102.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/103.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/104.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/105.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/106.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/107.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/108.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/109.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/110.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/111.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/112.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/113.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/114.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/115.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/116.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/117.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/118.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/119.jpg" alt="">
+            </div>
+            <div class="card spawn set-5">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/120.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/121.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/122.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/123.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/124.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/125.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/126.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/127.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/128.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/129.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/130.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/131.jpg" alt="">
+            </div>
+            <div class="card spawn set-6">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/132.jpg" alt="">
+            </div>
+            <div class="card spawn set-7">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/133.jpg" alt="">
+            </div>
+            <div class="card spawn set-7">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/134.jpg" alt="">
+            </div>
+            <div class="card spawn set-7">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/135.jpg" alt="">
+            </div>
+            <div class="card spawn set-7">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/136.jpg" alt="">
+            </div>
+            <div class="card spawn set-7">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/137.jpg" alt="">
+            </div>
+            <div class="card spawn set-7">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/138.jpg" alt="">
+            </div>
+            <div class="card spawn set-8">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/139.jpg" alt="">
+            </div>
+            <div class="card spawn set-8">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/140.jpg" alt="">
+            </div>
+            <div class="card spawn set-8">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/141.jpg" alt="">
+            </div>
+            <div class="card spawn set-8">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/142.jpg" alt="">
+            </div>
+            <div class="card spawn set-8">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/143.jpg" alt="">
+            </div>
+            <div class="card spawn set-8">
+                <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/144.jpg" alt="">
+            </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script type="text/javascript" src="vendor/jquery.lazyload.min.js"></script>
+
+        <script type="text/javascript" src="vendor/mixitup/build/jquery.mixitup.min.js"></script>
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>

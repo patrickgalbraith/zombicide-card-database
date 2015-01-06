@@ -1,0 +1,280 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html, body {
+    background: url("../img/background.jpg") black;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#filters {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    text-align: center;
+    background: black;
+    border-bottom: 1px solid rgb(32, 32, 32);
+    margin-bottom: 20px;
+}
+
+#filters fieldset {
+    display: inline-block;
+}
+#filters fieldset select {
+    color: #f6a800;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    background: 0 none;
+    border: 1px solid #f6a800;
+    padding: 4px;
+}
+#filters fieldset select option {
+    background: black;
+    color: white;
+    text-transform: none;
+}
+#filters button {
+    display: inline-block;
+    background: #f6a800;
+    color: black;
+    border: 0 none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 6px 12px;
+}
+
+#filters .spawn-filter {
+    display: none;
+}
+
+@media all and (max-width: 768px) {
+    #filters fieldset {
+        display: block;
+        margin-bottom: 5px;
+    }
+    #filters button {
+        display: block;
+        margin: 0 auto;
+    }
+    #filters button,
+    #filters fieldset select {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+#card-container {
+    text-align: center;
+}
+
+#card-container .card {
+    display: none;
+    margin: 20px;
+    max-width: 280px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.35);
+}
+
+#card-container .card img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
