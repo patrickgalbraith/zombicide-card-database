@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 
-var out;
+var out = '';
 
 for(var i = 1; i <= 144; i++) {
     out += '<div class="card spawn set-1">'+"\n"+

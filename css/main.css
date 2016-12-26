@@ -115,6 +115,10 @@ html, body {
     display: none;
 }
 
+#filters .section-filter select {
+    min-width: 130px;
+}
+
 @media all and (max-width: 768px) {
     #filters fieldset {
         display: block;
@@ -138,15 +142,16 @@ html, body {
 #card-container .card {
     display: none;
     margin: 20px;
-    max-width: 280px;
+    max-width: 290px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.35);
 }
 
 #card-container .card img {
-    max-width: 100%;
+    /*max-width: 100%;*/
     height: auto !important;
+    margin: 0 -15px -20px -15px;
 }
 
 
