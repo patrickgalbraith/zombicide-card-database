@@ -74,6 +74,15 @@ html, body {
     background-repeat: no-repeat;
 }
 
+.info-banner {
+    color: white;
+    text-align: center;
+}
+
+.info-banner a {
+    color: #f6a800;
+}
+
 #filters {
     display: block;
     width: 100%;
