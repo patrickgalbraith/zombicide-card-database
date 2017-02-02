@@ -4,9 +4,9 @@ var fs = require('fs');
 
 var out = '';
 
-for(var i = 1; i <= 144; i++) {
+for(var i = 145; i <= 246; i++) {
     out += '<div class="card spawn set-1">'+"\n"+
-    '    <img src="img/cards/spawn/'+i+'.jpg" alt="">'+"\n"+
+    '    <img width="320" height="440" src="img/loading-card.png" data-original="img/cards/spawn/'+i+'.jpg" alt="">'+"\n"+
     '</div>'+"\n";
 }
 
