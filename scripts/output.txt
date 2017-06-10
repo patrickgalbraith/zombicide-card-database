@@ -1,0 +1,3 @@
+<div class="card equipment set-blackplague">
+    <img width="320" height="440" src="img/cards/equipment/blackplague/Apples.jpg" alt="Apples">
+</div>

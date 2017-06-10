@@ -98,7 +98,6 @@ html, body {
 }
 #filters fieldset select {
     color: #f6a800;
-    text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
     background: 0 none;
@@ -116,7 +115,6 @@ html, body {
     color: black;
     border: 0 none;
     font-weight: bold;
-    text-transform: uppercase;
     padding: 6px 12px;
 }
 
