@@ -1,3 +1,21 @@
 <div class="card equipment set-blackplague">
-    <img width="320" height="440" src="img/cards/equipment/blackplague/Apples.jpg" alt="Apples">
+    <img width="320" height="440" src="img/cards/equipment/blackplague/Dragon Bile.jpg" alt="Dragon Bile">
+</div>
+<div class="card equipment set-blackplague">
+    <img width="320" height="440" src="img/cards/equipment/blackplague/equipment" alt="equipment">
+</div>
+<div class="card equipment set-blackplague">
+    <img width="320" height="440" src="img/cards/equipment/blackplague/Plenty Of Arrows.jpg" alt="Plenty Of Arrows">
+</div>
+<div class="card equipment set-blackplague">
+    <img width="320" height="440" src="img/cards/equipment/blackplague/Plenty Of Bolts.jpg" alt="Plenty Of Bolts">
+</div>
+<div class="card equipment set-blackplague">
+    <img width="320" height="440" src="img/cards/equipment/blackplague/Salted Meat.jpg" alt="Salted Meat">
+</div>
+<div class="card equipment set-blackplague">
+    <img width="320" height="440" src="img/cards/equipment/blackplague/Torch.jpg" alt="Torch">
+</div>
+<div class="card equipment set-blackplague">
+    <img width="320" height="440" src="img/cards/equipment/blackplague/Water.jpg" alt="Water">
 </div>

@@ -4,8 +4,8 @@ var fs = require('fs');
 var path = require('path');
 
 var out = '';
-var set = 'other';
-var files = fs.readdirSync('../img/cards/equipment/'+set);
+var set = 'blackplague';
+var files = fs.readdirSync('../img/cards/'+set);
 
 files.forEach(function(file) {
   out += '<div class="card equipment set-'+set+'">'+"\n"+

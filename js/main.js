@@ -143,4 +143,19 @@ $(document).ready(function() {
             }
         }
     });
+
+    // Hi-res image modal
+    $('body').on('click', '.card > a', function(e) {
+        e.preventDefault();
+
+        var imageUrl = $(this).attr('href');
+
+        lightcase.start({
+            href: imageUrl.replace(/ /g, '%20'),
+            type: 'image',
+            maxWidth: 1920,
+            maxHeight: 1080,
+            shrinkFactor: 0.9
+        });
+    });
 });
